@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Nestrix - Interior Design Agency Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/) [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/) [![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/) [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
-## Available Scripts
+This is a full-stack MERN (MongoDB, Express, React, Node.js) application for "Nestrix," a fictional interior designing agency.
 
-In the project directory, you can run:
+## 📋 Features
 
-### `npm start`
+* **Homepage:** A stunning landing page to attract potential clients.
+* **Portfolio Gallery:** Browse through different design projects (e.g., residential, commercial).
+* **Services Page:** Details on the services offered, from consultation to full-scale design.
+* **Contact Form:** A functional contact form for new business inquiries (connects to the backend).
+* **Admin Panel (Optional):** A secure area for the admin to upload new projects or manage inquiries.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Frontend (Client)
+* **React:** A JavaScript library for building user interfaces.
+* **CSS:** (Add your CSS solution here - e.g., CSS Modules, Styled Components, Tailwind CSS)
 
-### `npm test`
+### Backend (Server)
+* **Node.js:** A JavaScript runtime environment.
+* **Express.js:** A web application framework for Node.js, used to build the REST API.
+* **MongoDB:** A NoSQL database used to store project data and contact inquiries.
+* **Mongoose:** An ODM (Object Data Modeling) library for MongoDB.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🏁 Getting Started
 
-### `npm run build`
+Follow these instructions to get a local copy of the project up and running.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You must have the following installed on your system:
+* [Node.js](https://nodejs.org/) (which includes npm)
+* [MongoDB](https://www.mongodb.com/try/download/community) (or a MongoDB Atlas account)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation & Setup
 
-### `npm run eject`
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/Jeevzz-10/Nestrix.git](https://github.com/Jeevzz-10/Nestrix.git)
+    cd Nestrix
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2.  **Install Frontend Dependencies:**
+    (This installs all the React packages from `package.json`)
+    ```sh
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3.  **Install Backend Dependencies:**
+    (This installs all the server packages from `server/package.json`)
+    ```sh
+    cd server
+    npm install
+    cd ..
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4.  **Set up Environment Variables:**
+    The server needs a `.env` file to connect to the database.
+    * Create a file named `.env` inside the `/server` folder.
+    * Add your MongoDB connection string to it:
+    ```
+    MONGO_URI=your_mongodb_connection_string
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🏃‍♂️ Running the Application
 
-## Learn More
+You'll need to run both the frontend and backend servers simultaneously.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1.  **Run the Backend (Server):**
+    Open a terminal and navigate to the `/server` directory.
+    ```sh
+    cd server
+    npm start
+    # Your server will start, usually on http://localhost:5000
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2.  **Run the Frontend (Client):**
+    Open a *second* terminal and stay in the root `Nestrix` directory.
+    ```sh
+    npm start
+    # Your React app will open in the browser at http://localhost:3000
+    ```
 
-### Code Splitting
+The application should now be running! The React app on port 3000 will automatically communicate with the Express server on port 5000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`![Nestrix Homepage](./path/to/your/screenshot.png)`
