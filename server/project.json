@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "backgroundImage": "./24.jpg",
+        "title": "Luxury Villa",
+        "description": "A luxurious villa designed with modern and elegant interiors.",
+        "price": "$1,000,000"
+    },
+    {
+        "id": 2,
+        "backgroundImage": "./25.jpg",
+        "title": "Cozy Apartment",
+        "description": "A cozy apartment with a minimalist design and space optimization.",
+        "price": "$300,000"
+    },
+    {
+        "id": 3,
+        "backgroundImage": "./26.jpg",
+        "title": "Modern Office Space",
+        "description": "An innovative office space with smart technologies and collaborative design.",
+        "price": "$500,000"
+    },
+    {
+        "id": 4,
+        "backgroundImage": "./27.jpg",
+        "title": "Beachfront House",
+        "description": "A beautiful house located by the beach with breathtaking ocean views.",
+        "price": "$750,000"
+    },
+    {
+        "id": 5,
+        "backgroundImage": "./28.jpg",
+        "title": "Urban Loft",
+        "description": "An industrial-style loft in the heart of the city.",
+        "price": "$450,000"
+    },
+    {
+        "id": 6,
+        "backgroundImage": "./29.jpg",
+        "title": "Family Home",
+        "description": "A spacious family home with a warm and inviting design.",
+        "price": "$600,000"
+    },
+    {
+        "id": 7,
+        "title": "Mountain Retreat",
+        "description": "A secluded mountain retreat with stunning views and rustic charm.",
+        "price": "$900,000"
+    },
+    {
+        "id": 8,
+        "title": "Smart Home",
+        "description": "A state-of-the-art home equipped with the latest smart home technology.",
+        "price": "$850,000"
+    },
+    {
+        "id": 9,
+        "title": "Luxury Penthouse",
+        "description": "A high-end penthouse with panoramic city views and luxurious amenities.",
+        "price": "$2,500,000"
+    },
+    {
+        "id": 10,
+        "title": "Sustainable House",
+        "description": "A sustainable home built with eco-friendly materials and energy-efficient design.",
+        "price": "$700,000"
+    },
+    {
+        "id": 11,
+        "title": "Traditional Cottage",
+        "description": "A charming traditional cottage surrounded by a peaceful garden and nature.",
+        "price": "$400,000"
+    },
+    {
+        "id": 12,
+        "title": "City Skyscraper",
+        "description": "A modern skyscraper with cutting-edge architecture and city views.",
+        "price": "$5,000,000"
+    }
+]

@@ -1,0 +1,182 @@
+.initial{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+}
+.startname{
+    margin-top: 200px;
+    font-size: 4rem;
+    text-align: center;
+}
+.booking h1{
+    text-align: center;
+    margin-top: 90px;
+}
+.booking-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cancel-btn,
+  .book-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  .book-btn {
+    background-color: #28a745;
+    color: #fff;
+  }
+  .confirmation-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #28a745;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fade-in-out 3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .confirmation-message .message-content h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .confirmation-message .message-content p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
+  @keyframes fade-in-out {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -60%);
+    }
+    10%, 90% {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(-50%, -40%);
+    }
+  }
+  .error-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #dc3545;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fade-in-out 3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .error-message .message-content h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  @keyframes fade-in-out {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -60%);
+    }
+    10%, 90% {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(-50%, -40%);
+    }
+  }
+     
+  .delete-account-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .modal-buttons button {
+    margin: 5px;
+  }
+  
+  .message {
+    margin-top: 10px;
+    color: red;
+    font-size: 14px;
+  }
+  
